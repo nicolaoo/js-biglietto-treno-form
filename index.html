@@ -21,16 +21,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><button class="dropdown-item" type="button">ciao</button></li>
-                      <li><button class="dropdown-item" type="button">Another action</button></li>
-                      <li><button class="dropdown-item" type="button">Something else here</button></li>
-                    </ul>
-                </div>
+                <select name="color" class="form-control mb-2" id="">
+                    <option value="">-- seleziona lo sconto da applicare --</option>
+                    <option value="red">Sconto under18</option>
+                    <option value="2">Sconto over65</option>
+                    <option value="3">Nessuno sconto</option>
+                  </select>
+                <input type="button" class="btn btn-secondary" value="applica">
             </div>
         </div>
 
