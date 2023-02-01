@@ -3,3 +3,16 @@
     padding: 20px;
     border-radius: 25px;
 }
+
+.card-ticket {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #efefef;
+    width: 500px;
+}
+
+.btn-dati {
+    border: 0;
+    border-bottom: 1px solid;
+}
