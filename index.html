@@ -13,24 +13,46 @@
 
     <main id="train">
         <div class="container">
-            <div class="row">
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Nome</label>
+                    <input type="name" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Cognome</label>
+                    <input type="surname" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">km</label>
+                    <input type="email" placeholder="Inserisci i km che vuoi percorrere" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">City</label>
+                    <input type="city" placeholder="Inserisci la città" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12 pt-4">
 
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Km percorsi</label>
-                    <input type="email" placeholder="Inserisci i km che vuoi percorrere" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <select name="color" class="form-control mb-2" id="">
+                        <option value="">-- seleziona lo sconto da applicare --</option>
+                        <option value="1">Sconto under18</option>
+                        <option value="2">Sconto over65</option>
+                        <option value="3">Nessuno sconto</option>
+                    </select>
+                    <input type="button" class="btn btn-secondary mt-2" value="applica">
                 </div>
             </div>
+        </div>
+        <div class="container">
+
             <div class="row">
-                <select name="color" class="form-control mb-2" id="">
-                    <option value="">-- seleziona lo sconto da applicare --</option>
-                    <option value="1">Sconto under18</option>
-                    <option value="2">Sconto over65</option>
-                    <option value="3">Nessuno sconto</option>
-                  </select>
-                <input type="button" class="btn btn-secondary" value="applica">
+                <div class="col">
+                    <h1 class="prezzo-finale">
+                        prezzo prezzo-finale
+                    </h1>
+                </div>
             </div>
         </div>
-
+            
     </main>
 
 
